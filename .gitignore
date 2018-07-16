@@ -1,0 +1,58 @@
+# Local pre-compilation
+web/sass/root.css
+
+# locally compiled sass/js
+web/compiled/
+shared/lib
+
+# Local mobile builds
+mobile/build-tools
+
+*.pyc
+env
+
+# node.js
+node_modules/
+npm-debug.log
+
+# PyCharm
+.idea/
+
+
+# For Macs
+.DS_Store
+
+# Xcode
+#
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+
+# fastlane
+#
+mobile/fastlane/report.xml
+mobile/fastlane/Preview.html
+mobile/fastlane/screenshots
+
+# android
+mobile/android/app/app-release.apk
+
+# iOS
+mobile/ios/Pods
+mobile/ios/AlanMobile.xcodeproj/xcuserdata/
+mobile/ios/AlanMobile.xcworkspace/xcuserdata/
+
+.next
+out
